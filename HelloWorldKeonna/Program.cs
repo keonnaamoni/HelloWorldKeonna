@@ -18,11 +18,15 @@ namespace HelloWorldKeonna
             //string firstName = "Keonna ";  //added first name
             //string lastName = "Evans";    //added last name
 
-           // Console.WriteLine("Hello " + firstName + lastName);
-            //Console.ReadLine();
+            Console.WriteLine(args.Length);
+            Console.WriteLine(args);
+            Console.Write("{0} {1}", args);
 
-            Console.WriteLine( "{0} {1} args");
+            Console.WriteLine(" Hello World");
             Console.ReadLine();
+
+            
+            
 
 
         }
