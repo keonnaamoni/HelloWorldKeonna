@@ -10,15 +10,18 @@ namespace HelloWorldKeonna
     {
         static void Main(string[] args)
         {
-            string myName = "Keonna";
+           // string myName = "Keonna";
 
            // Console.WriteLine("Hello"  + myName);  //added the Name Keonna
             //Console.ReadLine();
 
-            string firstName = "Keonna";  //added first name
-            string lastName = "Evans";    //added last name
+            //string firstName = "Keonna ";  //added first name
+            //string lastName = "Evans";    //added last name
 
-            Console.WriteLine("Hello " + firstName + lastName);
+           // Console.WriteLine("Hello " + firstName + lastName);
+            //Console.ReadLine();
+
+            Console.WriteLine( "{0} {1} args");
             Console.ReadLine();
 
 
